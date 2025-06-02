@@ -1,0 +1,20 @@
+{
+    "scriptFile": "__init__.py",
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "newBlob",
+            "type": "blobTrigger",
+            "direction": "in",
+            "path": "container1",
+            "connection": "MyStorageConnectionAppSetting"
+        },
+        {
+            "type": "signalR",
+            "name": "outRMessages",
+            "hubName": "negotiateHub",
+            "connectionStringSetting": "AzureSignalRConnectionString",
+            "direction": "out"
+        }
+    ]
+}

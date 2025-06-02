@@ -1,0 +1,15 @@
+
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "signalRTrigger",
+      "name": "invocation",
+      "hubName": "negotiateHub",
+      "category": "connections",
+      "event": "connected",
+      
+      "direction": "in"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "signalRTrigger",
+      "name": "invocation",
+      "hubName": "onConnectionHub",
+      "category": "messages",
+      "event": "SendMessage",
+      "parameterNames": [
+          "message"
+      ],
+      "direction": "in"
+    }
+  ]
+}

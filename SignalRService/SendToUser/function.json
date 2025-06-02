@@ -1,0 +1,23 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "signalRTrigger",
+      "name": "invocation",
+      "hubName": "negotiateHub",
+      "category": "messages",
+      "event": "SendToUser",
+      "parameterNames": [
+          "message"
+      ],
+      "direction": "in"
+    },
+    {
+      "type": "signalR",
+      "name": "outRMessages",
+      "hubName": "negotiateHub",
+      "connectionStringSetting": "AzureSignalRConnectionString",
+      "direction": "out"
+    }
+  ]
+}
